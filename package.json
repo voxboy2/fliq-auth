@@ -1,0 +1,25 @@
+{
+  "name": "fliq-auth",
+  "version": "1.0.0",
+  "description": "a node js authentication system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "efe",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.10.15",
+    "nodemailer": "^6.4.16"
+  }
+}
